@@ -1,0 +1,22 @@
+.movieList {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.movieList img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* CSS cho swiper để hiệu ứng scale k bị che */
+.mySwiper div {
+  margin: 10px 0;
+  height: auto;
+}
+
+.movieListBanner {
+  position: relative;
+  top: -10px;
+  height: 100px;
+}

@@ -1,0 +1,23 @@
+.searchList {
+  padding: 15px;
+}
+
+.resultList {
+  padding: 15px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.resultList img {
+  width: 145px;
+  min-height: 225px;
+  cursor: pointer;
+}
+
+.searchListBanner {
+  width: 145px;
+  min-height: 225px;
+}

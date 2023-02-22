@@ -1,0 +1,66 @@
+.banner {
+  height: 50vh;
+  max-height: 50vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  position: relative;
+  top: 43%;
+
+  padding-left: 50px;
+  color: var(--white);
+}
+
+.content h3 {
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+.content button:first-child {
+  margin-right: 15px;
+}
+
+.content button {
+  border: none;
+  padding: 10px 20px;
+
+  color: var(--white);
+  background-color: rgba(60, 60, 60, 0.5);
+  cursor: pointer;
+}
+
+.content button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+
+/* CSS ẩn nếu chữ quá dài */
+.content p {
+  display: -webkit-box;
+  max-width: 30%;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  margin-top: 5px;
+}
+
+/* Responsive */
+/* mobile */
+@media (max-width: 767px) {
+  .content p {
+    max-width: 80%;
+  }
+}
+
+/* Ipad */
+@media (max-width: 991px) {
+  .content p {
+    max-width: 40%;
+  }
+}

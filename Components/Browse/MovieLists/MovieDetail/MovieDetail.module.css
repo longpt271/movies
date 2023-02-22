@@ -1,0 +1,30 @@
+.movieDetail {
+  display: flex;
+  gap: 30px;
+
+  padding: 10px 20px;
+}
+
+.content {
+  width: 50%;
+}
+
+.content h3 {
+  font-size: 25px;
+
+  border-bottom: 1px solid var(--white);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.content p {
+  margin-top: 15px;
+}
+
+.youtube {
+  width: 50%;
+}
+
+.youtube img {
+  height: 400px;
+}

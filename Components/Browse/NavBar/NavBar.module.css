@@ -1,0 +1,53 @@
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 25px;
+}
+
+.navbar h3 {
+  color: var(--red);
+  cursor: pointer;
+}
+
+.navbar img {
+  width: 25px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+/* Xử lý CSS animation */
+
+.fadeIn {
+  background-color: var(--bg-main-color);
+  animation: fadeIn 1s;
+}
+
+.fadeOut {
+  animation: fadeOut 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: var(--bg-main-color);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    background-color: var(--bg-main-color);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
